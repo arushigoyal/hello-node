@@ -1,4 +1,3 @@
-# Stage 1
 FROM node:16-buster as build-step
 RUN mkdir -p /app
 WORKDIR /app
